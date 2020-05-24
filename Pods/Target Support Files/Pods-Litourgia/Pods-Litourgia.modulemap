@@ -1,0 +1,6 @@
+framework module Pods_Litourgia {
+  umbrella header "Pods-Litourgia-umbrella.h"
+
+  export *
+  module * { export * }
+}

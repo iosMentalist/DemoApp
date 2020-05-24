@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.0.2)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - MDatePickerView (1.2.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - MDatePickerView
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - MDatePickerView
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  MDatePickerView: e26233885de2f13659c6101b3ed265eacf92c078
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 8de148294f5820919a4474ad99ffe6df5e50fa9b
+
+COCOAPODS: 1.8.4
