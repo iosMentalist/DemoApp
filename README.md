@@ -28,4 +28,4 @@ Table view has 2 sections :
 ## Summary
 Chart: 
 
-![Chart](Untitled Diagram.png)
+![Chart](Diagram.png)
