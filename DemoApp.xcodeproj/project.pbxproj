@@ -343,21 +343,21 @@
 		E6A404A324616329006C354C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E6A404A424616333006C354C /* Feasts */,
+				E6A404A424616333006C354C /* Picture */,
 				E6A40496245FEE92006C354C /* Article */,
 				E6A4049B246063CB006C354C /* Daily Items */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E6A404A424616333006C354C /* Feasts */ = {
+		E6A404A424616333006C354C /* Picture */ = {
 			isa = PBXGroup;
 			children = (
 				E6A404A52461635F006C354C /* PictureLoader.swift */,
 				E6A404A724616369006C354C /* LocalPictureLoader.swift */,
 				E6A404A9246163AE006C354C /* Picture.swift */,
 			);
-			path = Feasts;
+			path = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
