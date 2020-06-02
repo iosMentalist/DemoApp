@@ -4,6 +4,8 @@
 
 import Foundation
 
+/* IMPLEMENTING CACHING FEATRUE */
+
 final class ArticleLoaderCacheDecorator: ArticleLoader {
 	private let decoratee: ArticleLoader
 	private let cache: ArticleCache

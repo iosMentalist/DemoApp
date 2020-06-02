@@ -3,6 +3,8 @@
 //
 import Foundation
 
+/* LOCAL AND REMOTE ARTICLE COMPOSITE */
+
 class ArticleLoaderWithFallbackComposite: ArticleLoader {
     private let primary: ArticleLoader
     private let fallback: ArticleLoader

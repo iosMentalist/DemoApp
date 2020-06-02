@@ -4,6 +4,8 @@
 import Foundation
 
 
+/* COMBINING ARTICLE AND PICTURE DECORATOR */
+
 final class ArticlePictureLoader  {
     typealias ArticlePictureLoaderLoaderResult = Swift.Result<([Picture],[Article]), Error>
     private let articleLoader: ArticleLoader
