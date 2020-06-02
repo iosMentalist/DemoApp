@@ -15,6 +15,7 @@ class MainViewComposer {
         pictureLoader = LocalPictureLoader(store: store)
         remoteArticle = RemoteArticleLoader()
         localArticle = LocalArticleLoader(store: store)
+        //read from remote
         cacheDecorater = ArticleLoaderCacheDecorator(decoratee: remoteArticle, cache: localArticle)
         composite = ArticleLoaderWithFallbackComposite(primary: cacheDecorater, fallback: self.remoteArticle)
         
