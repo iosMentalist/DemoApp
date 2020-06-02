@@ -20,11 +20,13 @@ class CollectionPageController : NSObject,  UICollectionViewDelegate ,UICollecti
         collectionViewLayout.minimumInteritemSpacing = 0
         collectionViewLayout.minimumLineSpacing = 0
         customCollectionView.collectionViewLayout = collectionViewLayout
+        pageControl.numberOfPages = model.count
+        pageControl.currentPage = 0
+
     }
 
     func setupPageControlCurrentPage(_ currentPage: Int) {
         pageControl.currentPage = currentPage
-        pageControl.numberOfPages = model.count
     }
  
 
@@ -50,4 +52,10 @@ class CollectionPageController : NSObject,  UICollectionViewDelegate ,UICollecti
         return CGSize(width: customCollectionView.bounds.width, height: (customCollectionView.bounds.height))
     }
 
+
+    func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
+        let page = scrollView.contentOffset.x / scrollView.bounds.width
+        self.pageControl.currentPage = Int(page)
+
+    }
 }

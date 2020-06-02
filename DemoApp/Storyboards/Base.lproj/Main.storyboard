@@ -99,8 +99,8 @@
                                             </collectionViewCell>
                                         </cells>
                                     </collectionView>
-                                    <pageControl contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ros-uu-7cY">
-                                        <rect key="frame" x="188" y="390" width="39" height="30"/>
+                                    <pageControl contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ros-uu-7cY">
+                                        <rect key="frame" x="207.5" y="390" width="0.0" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="zSv-ZX-AF2"/>
                                         </constraints>
