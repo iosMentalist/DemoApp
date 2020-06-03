@@ -40,7 +40,7 @@ extension CoreDataStore : ArticleStore {
         }
     }
 
-    //MARK: - FEASTS
+    //MARK: - PICUTRES
 
     func getPictures(date: String, completion: @escaping (GetPicturesResult) -> Void) {
         perform { context in
@@ -52,7 +52,7 @@ extension CoreDataStore : ArticleStore {
         }
     }
 
-    //MARK: - LENT
+    //MARK: - SPORT
 
     func getSport(date: String, completion: @escaping (RetrieveResult) -> Void) {
         perform { context in
@@ -76,7 +76,7 @@ extension CoreDataStore : ArticleStore {
         }
     }
 
-    //MARK: - otherArticles
+    //MARK: - today article
 
     func getTodayArticle(date: String, completion: @escaping (RetrieveResult) -> Void) {
         perform { context in
