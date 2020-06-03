@@ -10,6 +10,5 @@ enum DailyItemType {
 typealias DailyLoaderResult = Swift.Result<String, Error>
 
 protocol DailyLoader {
-
     func load(completion:@escaping(DailyLoaderResult)->Void)
 }
